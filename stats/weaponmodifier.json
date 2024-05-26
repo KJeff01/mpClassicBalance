@@ -3,7 +3,7 @@
 		"Half-Tracked": 100,
 		"Hover": 100,
 		"Legged": 100,
-		"Lift": 110,
+		"Lift": 100,
 		"Tracked": 100,
 		"Wheeled": 100
 	},
@@ -25,7 +25,7 @@
 	},
 	"ARTILLERY ROUND": {
 		"Half-Tracked": 100,
-		"Hover": 150,
+		"Hover": 160,
 		"Legged": 200,
 		"Lift": 100,
 		"Tracked": 100,
@@ -41,7 +41,7 @@
 	},
 	"FLAMER": {
 		"Half-Tracked": 80,
-		"Hover": 150,
+		"Hover": 160,
 		"Legged": 150,
 		"Lift": 25,
 		"Tracked": 80,

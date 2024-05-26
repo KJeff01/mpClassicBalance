@@ -13,7 +13,7 @@
 	},
 	"ANTI TANK": {
 		"BUNKER": 40,
-		"HARD": 55,
+		"HARD": 50,
 		"MEDIUM": 50,
 		"SOFT": 100
 	},
@@ -25,7 +25,7 @@
 	},
 	"BUNKER BUSTER": {
 		"BUNKER": 500,
-		"HARD": 350,
+		"HARD": 300,
 		"MEDIUM": 100,
 		"SOFT": 100
 	},

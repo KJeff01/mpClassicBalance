@@ -18,6 +18,92 @@
 		"type": "DEMOLISH",
 		"width": 1
 	},
+	"A0BaBaVtolPad": {
+		"armour": 10,
+		"baseModel": "blbgen.pie",
+		"breadth": 1,
+		"buildPoints": 30,
+		"buildPower": 15,
+		"height": 1,
+		"hitpoints": 100,
+		"id": "A0BaBaVtolPad",
+		"name": "VTOL BaBa Rearming Pad",
+		"rearmPoints": 300,
+		"repairPoints": 20,
+		"resistance": 150,
+		"sensorID": "DefaultSensor1Mk1",
+		"strength": "MEDIUM",
+		"structureModel": [
+			"blvtolpd.pie"
+		],
+		"thermal": 5,
+		"type": "REARM PAD",
+		"width": 1
+	},
+	"bbaatow": {
+		"armour": 11,
+		"breadth": 1,
+		"buildPoints": 200,
+		"buildPower": 50,
+		"height": 2,
+		"hitpoints": 250,
+		"id": "bbaatow",
+		"name": "Scavenger MG tower",
+		"resistance": 150,
+		"sensorID": "BaBaSensor",
+		"strength": "SOFT",
+		"structureModel": [
+			"bbaatower.PIE"
+		],
+		"Thermal": 11,
+		"type": "DEFENSE",
+		"weapons": [
+			"bbaawep"
+		],
+		"width": 1
+	},
+	"A0BaBaVtolFactory": {
+		"armour": 10,
+		"breadth": 2,
+		"buildPoints": 250,
+		"buildPower": 50,
+		"height": 3,
+		"hitpoints": 500,
+		"id": "A0BaBaVtolFactory",
+		"name": "Scavenger Chopper Factory",
+		"productionPoints": 15,
+		"resistance": 150,
+		"sensorID": "DefaultSensor1Mk1",
+		"strength": "MEDIUM",
+		"structureModel": [
+			"scavvtol.pie"
+		],
+		"thermal": 5,
+		"type": "VTOL FACTORY",
+		"width": 2
+	},
+	"ScavRepairCentre": {
+		"armour": 5,
+		"baseModel": "BLBGEN.PIE",
+		"breadth": 1,
+		"buildPoints": 100,
+		"buildPower": 20,
+		"ecmID": "RepairCentre",
+		"height": 2,
+		"hitpoints": 300,
+		"id": "ScavRepairCentre",
+		"name": "Scavenger Repair Center",
+		"repairPoints": 10,
+		"resistance": 150,
+		"sensorID": "DefaultSensor1Mk1",
+		"strength": "MEDIUM",
+		"structureModel": [
+			"repair.pie"
+		],
+		"thermal": 5,
+		"type": "REPAIR FACILITY",
+		"width": 1
+	},
 	"A0BaBaBunker": {
 		"armour": 12,
 		"breadth": 1,
@@ -410,6 +496,11 @@
 		],
 		"thermal": 10,
 		"type": "CYBORG FACTORY",
+		"userLimits": [
+			0,
+			5,
+			5
+		],
 		"width": 1
 	},
 	"A0FacMod1": {
@@ -433,6 +524,26 @@
 		"type": "FACTORY MODULE",
 		"width": 3
 	},
+	"A0HardcreteMk1Gate": {
+		"armour": 15,
+		"breadth": 1,
+		"buildPoints": 200,
+		"buildPower": 45,
+		"height": 2,
+		"hitpoints": 700,
+		"id": "A0HardcreteMk1Gate",
+		"name": "Hardcrete Gate",
+		"strength": "HARD",
+		"structureModel": [
+			"blgateh.pie",
+			"blgateh_x.pie",
+			"blgateh_t.pie",
+			"blgateh_l.pie"
+		],
+		"thermal": 15,
+		"type": "GATE",
+		"width": 1
+	},
 	"A0HardcreteMk1CWall": {
 		"armour": 15,
 		"breadth": 1,
@@ -440,7 +551,7 @@
 		"buildPower": 25,
 		"ecmID": "ZNULLECM",
 		"height": 2,
-		"hitpoints": 250,
+		"hitpoints": 265,
 		"id": "A0HardcreteMk1CWall",
 		"name": "Hardcrete Corner Wall",
 		"sensorID": "ZNULLSENSOR",
@@ -459,7 +570,7 @@
 		"buildPower": 25,
 		"ecmID": "ZNULLECM",
 		"height": 2,
-		"hitpoints": 250,
+		"hitpoints": 265,
 		"id": "A0HardcreteMk1Wall",
 		"name": "Hardcrete Wall",
 		"sensorID": "ZNULLSENSOR",
@@ -473,6 +584,32 @@
 		"thermal": 15,
 		"type": "WALL",
 		"width": 1
+	},
+	"A0LasSatCommand": {
+		"armour": 16,
+		"breadth": 2,
+		"buildPoints": 2500,
+		"buildPower": 999,
+		"height": 2,
+		"hitpoints": 500,
+		"id": "A0LasSatCommand",
+		"name": "Laser Satellite Command Post",
+		"resistance": 0,
+		"strength": "HARD",
+		"structureModel": [
+			"milasbas.pie"
+		],
+		"thermal": 16,
+		"type": "LASSAT",
+		"userLimits": [
+			0,
+			1,
+			1
+		],
+		"weapons": [
+			"LasSat"
+		],
+		"width": 2
 	},
 	"A0LightFactory": {
 		"armour": 10,
@@ -499,6 +636,11 @@
 		],
 		"thermal": 10,
 		"type": "FACTORY",
+		"userLimits": [
+			0,
+			5,
+			5
+		],
 		"width": 3
 	},
 	"A0PowMod1": {
@@ -543,6 +685,11 @@
 		],
 		"thermal": 20,
 		"type": "POWER GENERATOR",
+		"userLimits": [
+			0,
+			10,
+			10
+		],
 		"width": 2
 	},
 	"A0RepairCentre3": {
@@ -565,6 +712,11 @@
 		],
 		"thermal": 10,
 		"type": "REPAIR FACILITY",
+		"userLimits": [
+			0,
+			5,
+			5
+		],
 		"width": 1
 	},
 	"A0ResearchFacility": {
@@ -590,6 +742,11 @@
 		],
 		"thermal": 10,
 		"type": "RESEARCH",
+		"userLimits": [
+			0,
+			5,
+			20
+		],
 		"width": 2
 	},
 	"A0ResearchModule1": {
@@ -630,6 +787,30 @@
 		"thermal": 5,
 		"type": "RESOURCE EXTRACTOR",
 		"width": 1
+	},
+	"A0Sat-linkCentre": {
+		"armour": 12,
+		"breadth": 2,
+		"buildPoints": 1250,
+		"buildPower": 999,
+		"height": 3,
+		"hitpoints": 800,
+		"id": "A0Sat-linkCentre",
+		"name": "Satellite Uplink Center",
+		"resistance": 0,
+		"sensorID": "UplinkSensor",
+		"strength": "MEDIUM",
+		"structureModel": [
+			"miupbase.PIE"
+		],
+		"thermal": 12,
+		"type": "SAT UPLINK",
+		"userLimits": [
+			0,
+			1,
+			1
+		],
+		"width": 2
 	},
 	"A0TankTrap": {
 		"armour": 10,
@@ -675,6 +856,11 @@
 		],
 		"thermal": 10,
 		"type": "VTOL FACTORY",
+		"userLimits": [
+			0,
+			5,
+			5
+		],
 		"width": 3
 	},
 	"A0VtolPad": {
@@ -698,6 +884,11 @@
 		],
 		"thermal": 10,
 		"type": "REARM PAD",
+		"userLimits": [
+			0,
+			50,
+			99
+		],
 		"width": 1
 	},
 	"AASite-QuadBof": {
@@ -709,7 +900,7 @@
 		"height": 1,
 		"hitpoints": 200,
 		"id": "AASite-QuadBof",
-		"name": "Cyclone AA Flak Site",
+		"name": "AA Cyclone Flak Cannon Emplacement",
 		"resistance": 150,
 		"sensorID": "DefaultSensor1Mk1",
 		"strength": "MEDIUM",
@@ -720,6 +911,28 @@
 		"type": "DEFENSE",
 		"weapons": [
 			"AAGun2Mk1"
+		],
+		"width": 1
+	},
+	"AASite-QuadBof02": {
+		"armour": 12,
+		"breadth": 1,
+		"buildPoints": 350,
+		"buildPower": 275,
+		"height": 1,
+		"hitpoints": 600,
+		"id": "AASite-QuadBof02",
+		"name": "AA Tornado Flak Cannon Emplacement",
+		"resistance": 150,
+		"sensorID": "DefaultSensor1Mk1",
+		"strength": "MEDIUM",
+		"structureModel": [
+			"Blaamnt2.PIE"
+		],
+		"thermal": 12,
+		"type": "DEFENSE",
+		"weapons": [
+			"AAGun2Mk1Quad"
 		],
 		"width": 1
 	},
@@ -988,7 +1201,7 @@
 		"buildPower": 25,
 		"ecmID": "ZNULLECM",
 		"height": 2,
-		"hitpoints": 250,
+		"hitpoints": 265,
 		"id": "CollectiveCWall",
 		"name": "Collective CWall",
 		"sensorID": "ZNULLSENSOR",
@@ -1007,7 +1220,7 @@
 		"buildPower": 25,
 		"ecmID": "ZNULLECM",
 		"height": 2,
-		"hitpoints": 250,
+		"hitpoints": 265,
 		"id": "CollectiveWall",
 		"name": "Collective Wall",
 		"sensorID": "ZNULLSENSOR",
@@ -1038,6 +1251,26 @@
 		"type": "DEFENSE",
 		"width": 1
 	},
+	"ECM1PylonMk1": {
+		"armour": 17,
+		"breadth": 1,
+		"buildPoints": 750,
+		"buildPower": 500,
+		"ecmID": "ECM1TurretMk1",
+		"height": 3,
+		"hitpoints": 1000,
+		"id": "ECM1PylonMk1",
+		"name": "Jammer Tower",
+		"resistance": 150,
+		"sensorID": "DefaultSensor1Mk1",
+		"strength": "HARD",
+		"structureModel": [
+			"blguardr.pie"
+		],
+		"thermal": 17,
+		"type": "DEFENSE",
+		"width": 1
+	},
 	"Emplacement-HPVcannon": {
 		"armour": 10,
 		"breadth": 1,
@@ -1061,10 +1294,76 @@
 		],
 		"width": 1
 	},
+	"Emplacement-HeavyLaser": {
+		"armour": 10,
+		"breadth": 1,
+		"buildPoints": 400,
+		"buildPower": 225,
+		"height": 1,
+		"hitpoints": 200,
+		"id": "Emplacement-HeavyLaser",
+		"name": "Heavy Laser Emplacement",
+		"resistance": 150,
+		"sensorID": "DefaultSensor1Mk1",
+		"strength": "HARD",
+		"structureModel": [
+			"BLHARDPT.PIE"
+		],
+		"thermal": 10,
+		"type": "DEFENSE",
+		"weapons": [
+			"HeavyLaser"
+		],
+		"width": 1
+	},
+	"Emplacement-Howitzer-Incendiary": {
+		"armour": 10,
+		"breadth": 1,
+		"buildPoints": 550,
+		"buildPower": 325,
+		"height": 1,
+		"hitpoints": 200,
+		"id": "Emplacement-Howitzer-Incendiary",
+		"name": "Incendiary Howitzer Emplacement",
+		"resistance": 150,
+		"sensorID": "DefaultSensor1Mk1",
+		"strength": "MEDIUM",
+		"structureModel": [
+			"Blhowmnt.PIE"
+		],
+		"thermal": 10,
+		"type": "DEFENSE",
+		"weapons": [
+			"Howitzer-Incendiary"
+		],
+		"width": 1
+	},
+	"Emplacement-Howitzer-Incenediary": {
+		"armour": 10,
+		"breadth": 1,
+		"buildPoints": 550,
+		"buildPower": 325,
+		"height": 1,
+		"hitpoints": 200,
+		"id": "Emplacement-Howitzer-Incenediary",
+		"name": "Incendiary Howitzer Emplacement 2",
+		"resistance": 150,
+		"sensorID": "DefaultSensor1Mk1",
+		"strength": "MEDIUM",
+		"structureModel": [
+			"Blhowmnt.PIE"
+		],
+		"thermal": 10,
+		"type": "DEFENSE",
+		"weapons": [
+			"Howitzer-Incendiary"
+		],
+		"width": 1
+	},
 	"Emplacement-Howitzer105": {
 		"armour": 10,
 		"breadth": 1,
-		"buildPoints": 500,
+		"buildPoints": 550,
 		"buildPower": 275,
 		"ecmID": "ZNULLECM",
 		"height": 1,
@@ -1087,8 +1386,8 @@
 	"Emplacement-Howitzer150": {
 		"armour": 10,
 		"breadth": 1,
-		"buildPoints": 550,
-		"buildPower": 375,
+		"buildPoints": 600,
+		"buildPower": 425,
 		"ecmID": "ZNULLECM",
 		"height": 1,
 		"hitpoints": 200,
@@ -1176,6 +1475,28 @@
 		],
 		"width": 1
 	},
+	"Emplacement-MRLHvy-pit": {
+		"armour": 12,
+		"breadth": 1,
+		"buildPoints": 450,
+		"buildPower": 200,
+		"height": 1,
+		"hitpoints": 300,
+		"id": "Emplacement-MRLHvy-pit",
+		"name": "Heavy Rocket Battery",
+		"resistance": 150,
+		"sensorID": "DefaultSensor1Mk1",
+		"strength": "MEDIUM",
+		"structureModel": [
+			"BLHARDPT.PIE"
+		],
+		"thermal": 12,
+		"type": "DEFENSE",
+		"weapons": [
+			"Rocket-MRL-Hvy"
+		],
+		"width": 1
+	},
 	"Emplacement-MdART-pit": {
 		"armour": 10,
 		"breadth": 1,
@@ -1196,6 +1517,72 @@
 		"type": "DEFENSE",
 		"weapons": [
 			"Missile-MdArt"
+		],
+		"width": 1
+	},
+	"Emplacement-MortarEMP": {
+		"armour": 10,
+		"breadth": 1,
+		"buildPoints": 450,
+		"buildPower": 150,
+		"height": 1,
+		"hitpoints": 200,
+		"id": "Emplacement-MortarEMP",
+		"name": "EMP Mortar Pit",
+		"resistance": 150,
+		"sensorID": "DefaultSensor1Mk1",
+		"strength": "MEDIUM",
+		"structureModel": [
+			"BLMRTPIT.PIE"
+		],
+		"thermal": 10,
+		"type": "DEFENSE",
+		"weapons": [
+			"MortarEMP"
+		],
+		"width": 1
+	},
+	"Emplacement-MortarPit-Incendiary": {
+		"armour": 10,
+		"breadth": 1,
+		"buildPoints": 425,
+		"buildPower": 135,
+		"height": 1,
+		"hitpoints": 200,
+		"id": "Emplacement-MortarPit-Incendiary",
+		"name": "Incendiary Mortar Pit",
+		"resistance": 150,
+		"sensorID": "DefaultSensor1Mk1",
+		"strength": "MEDIUM",
+		"structureModel": [
+			"BLMRTPIT.PIE"
+		],
+		"thermal": 10,
+		"type": "DEFENSE",
+		"weapons": [
+			"Mortar-Incendiary"
+		],
+		"width": 1
+	},
+	"Emplacement-MortarPit-Incenediary": {
+		"armour": 10,
+		"breadth": 1,
+		"buildPoints": 425,
+		"buildPower": 135,
+		"height": 1,
+		"hitpoints": 200,
+		"id": "Emplacement-MortarPit-Incenediary",
+		"name": "Incendiary Mortar Pit 2",
+		"resistance": 150,
+		"sensorID": "DefaultSensor1Mk1",
+		"strength": "MEDIUM",
+		"structureModel": [
+			"BLMRTPIT.PIE"
+		],
+		"thermal": 10,
+		"type": "DEFENSE",
+		"weapons": [
+			"Mortar-Incendiary"
 		],
 		"width": 1
 	},
@@ -1242,6 +1629,50 @@
 		"type": "DEFENSE",
 		"weapons": [
 			"Mortar2Mk1"
+		],
+		"width": 1
+	},
+	"Emplacement-PlasmaCannon": {
+		"armour": 10,
+		"breadth": 1,
+		"buildPoints": 400,
+		"buildPower": 225,
+		"height": 1,
+		"hitpoints": 200,
+		"id": "Emplacement-PlasmaCannon",
+		"name": "Plasma Cannon Emplacement",
+		"resistance": 150,
+		"sensorID": "DefaultSensor1Mk1",
+		"strength": "HARD",
+		"structureModel": [
+			"BLHARDPT.PIE"
+		],
+		"thermal": 10,
+		"type": "DEFENSE",
+		"weapons": [
+			"Laser4-PlasmaCannon"
+		],
+		"width": 1
+	},
+	"Emplacement-HeavyPlasmaLauncher": {
+		"armour": 12,
+		"breadth": 1,
+		"buildPoints": 675,
+		"buildPower": 525,
+		"height": 1,
+		"hitpoints": 400,
+		"id": "Emplacement-HeavyPlasmaLauncher",
+		"name": "Heavy Plasma Launcher Emplacement",
+		"resistance": 150,
+		"sensorID": "DefaultSensor1Mk1",
+		"strength": "MEDIUM",
+		"structureModel": [
+			"Blaamnt2.PIE"
+		],
+		"thermal": 12,
+		"type": "DEFENSE",
+		"weapons": [
+			"PlasmaHeavy"
 		],
 		"width": 1
 	},
@@ -1363,8 +1794,8 @@
 	"Emplacement-RotHow": {
 		"armour": 10,
 		"breadth": 1,
-		"buildPoints": 600,
-		"buildPower": 425,
+		"buildPoints": 650,
+		"buildPower": 525,
 		"ecmID": "ZNULLECM",
 		"height": 1,
 		"hitpoints": 200,
@@ -1553,7 +1984,7 @@
 		"height": 2,
 		"hitpoints": 400,
 		"id": "GuardTower3",
-		"name": "Heavy Machinegun Guard Tower",
+		"name": "Heavy Machine-gun Guard Tower",
 		"resistance": 150,
 		"sensorID": "DefaultSensor1Mk1",
 		"strength": "MEDIUM",
@@ -1662,7 +2093,7 @@
 		"buildPower": 25,
 		"ecmID": "ZNULLECM",
 		"height": 2,
-		"hitpoints": 250,
+		"hitpoints": 265,
 		"id": "NEXUSCWall",
 		"name": "NEXUS CWall",
 		"sensorID": "ZNULLSENSOR",
@@ -1681,7 +2112,7 @@
 		"buildPower": 25,
 		"ecmID": "ZNULLECM",
 		"height": 2,
-		"hitpoints": 250,
+		"hitpoints": 265,
 		"id": "NEXUSWall",
 		"name": "NEXUS Wall",
 		"sensorID": "ZNULLSENSOR",
@@ -1960,6 +2391,28 @@
 		"type": "DEFENSE",
 		"width": 2
 	},
+	"P0-AASite-Laser": {
+		"armour": 10,
+		"breadth": 1,
+		"buildPoints": 550,
+		"buildPower": 350,
+		"height": 2,
+		"hitpoints": 300,
+		"id": "P0-AASite-Laser",
+		"name": "Stormbringer Emplacement",
+		"resistance": 150,
+		"sensorID": "NavGunSensor",
+		"strength": "HARD",
+		"structureModel": [
+			"Blaamnt2.PIE"
+		],
+		"thermal": 10,
+		"type": "DEFENSE",
+		"weapons": [
+			"AAGunLaser"
+		],
+		"width": 1
+	},
 	"P0-AASite-SAM1": {
 		"armour": 10,
 		"breadth": 1,
@@ -2003,6 +2456,50 @@
 		"type": "DEFENSE",
 		"weapons": [
 			"Missile-HvySAM"
+		],
+		"width": 1
+	},
+	"P0-AASite-Sunburst": {
+		"armour": 12,
+		"breadth": 1,
+		"buildPoints": 300,
+		"buildPower": 175,
+		"height": 2,
+		"hitpoints": 400,
+		"id": "P0-AASite-Sunburst",
+		"name": "Sunburst AA Site",
+		"resistance": 150,
+		"sensorID": "DefaultSensor1Mk1",
+		"strength": "MEDIUM",
+		"structureModel": [
+			"Blaamnt1.PIE"
+		],
+		"thermal": 12,
+		"type": "DEFENSE",
+		"weapons": [
+			"Rocket-Sunburst"
+		],
+		"width": 1
+	},
+	"PillBox-Cannon6": {
+		"armour": 20,
+		"breadth": 1,
+		"buildPoints": 500,
+		"buildPower": 225,
+		"height": 1,
+		"hitpoints": 500,
+		"id": "PillBox-Cannon6",
+		"name": "Twin Assault Cannon Bunker",
+		"resistance": 150,
+		"sensorID": "DefaultSensor1Mk1",
+		"strength": "BUNKER",
+		"structureModel": [
+			"Blcanpil.pie"
+		],
+		"thermal": 20,
+		"type": "DEFENSE",
+		"weapons": [
+			"Cannon6TwinAslt"
 		],
 		"width": 1
 	},
@@ -2167,6 +2664,28 @@
 		],
 		"width": 1
 	},
+	"Plasmite-flamer-bunker": {
+		"armour": 20,
+		"breadth": 1,
+		"buildPoints": 400,
+		"buildPower": 125,
+		"height": 1,
+		"hitpoints": 400,
+		"id": "Plasmite-flamer-bunker",
+		"name": "Plasmite Flamer Bunker",
+		"resistance": 150,
+		"sensorID": "DefaultSensor1Mk1",
+		"strength": "BUNKER",
+		"structureModel": [
+			"Blcanpil.pie"
+		],
+		"thermal": 20,
+		"type": "DEFENSE",
+		"weapons": [
+			"PlasmiteFlamer"
+		],
+		"width": 1
+	},
 	"Sys-CB-Tower01": {
 		"armour": 15,
 		"breadth": 1,
@@ -2289,6 +2808,25 @@
 		"type": "DEFENSE",
 		"width": 1
 	},
+	"Sys-RadarDetector01": {
+		"armour": 17,
+		"breadth": 1,
+		"buildPoints": 400,
+		"buildPower": 175,
+		"height": 2,
+		"hitpoints": 1000,
+		"id": "Sys-RadarDetector01",
+		"name": "Radar Detector Tower",
+		"resistance": 150,
+		"sensorID": "RadarDetector",
+		"strength": "HARD",
+		"structureModel": [
+			"BLGUARDR.pie"
+		],
+		"thermal": 17,
+		"type": "DEFENSE",
+		"width": 1
+	},
 	"Sys-SensoTower01": {
 		"armour": 10,
 		"breadth": 1,
@@ -2300,7 +2838,7 @@
 		"id": "Sys-SensoTower01",
 		"name": "Sensor Tower",
 		"resistance": 150,
-		"sensorID": "SensorTower1Mk1",
+		"sensorID": "SensorTurret1Mk1",
 		"strength": "MEDIUM",
 		"structureModel": [
 			"BLGUARDM.PIE"
@@ -2327,6 +2865,47 @@
 		],
 		"thermal": 15,
 		"type": "DEFENSE",
+		"width": 1
+	},
+	"Sys-SensoTowerWS": {
+		"armour": 15,
+		"breadth": 1,
+		"buildPoints": 800,
+		"buildPower": 250,
+		"height": 3,
+		"hitpoints": 400,
+		"id": "Sys-SensoTowerWS",
+		"name": "Wide Spectrum Sensor Tower",
+		"resistance": 150,
+		"sensorID": "Sensor-WideSpec",
+		"strength": "HARD",
+		"structureModel": [
+			"BLGUARDR.pie"
+		],
+		"thermal": 15,
+		"type": "DEFENSE",
+		"width": 1
+	},
+	"Sys-SpyTower": {
+		"armour": 15,
+		"breadth": 1,
+		"buildPoints": 1600,
+		"buildPower": 250,
+		"height": 3,
+		"hitpoints": 400,
+		"id": "Sys-SpyTower",
+		"name": "Nexus Link Tower",
+		"resistance": 150,
+		"sensorID": "TowerSensor",
+		"strength": "HARD",
+		"structureModel": [
+			"BLGUARDR.pie"
+		],
+		"thermal": 15,
+		"type": "DEFENSE",
+		"weapons": [
+			"SpyTurret01"
+		],
 		"width": 1
 	},
 	"Sys-VTOL-CB-Tower01": {
@@ -2389,10 +2968,10 @@
 		"width": 1
 	},
 	"Tower-Projector": {
-		"armour": 15,
+		"armour": 20,
 		"breadth": 1,
-		"buildPoints": 100,
-		"buildPower": 130,
+		"buildPoints": 400,
+		"buildPower": 125,
 		"ecmID": "ZNULLECM",
 		"height": 2,
 		"hitpoints": 400,
@@ -2400,11 +2979,11 @@
 		"name": "Inferno Emplacement",
 		"resistance": 150,
 		"sensorID": "DefaultSensor1Mk1",
-		"strength": "MEDIUM",
+		"strength": "BUNKER",
 		"structureModel": [
-			"BLHARDPT.PIE"
+			"Blcanpil.pie"
 		],
-		"thermal": 15,
+		"thermal": 20,
 		"type": "DEFENSE",
 		"weapons": [
 			"Flame2"
@@ -2441,7 +3020,7 @@
 		"buildPower": 225,
 		"ecmID": "ZNULLECM",
 		"height": 2,
-		"hitpoints": 400,
+		"hitpoints": 420,
 		"id": "Tower-VulcanCan",
 		"name": "Assault Cannon Guard Tower",
 		"resistance": 150,
@@ -2479,12 +3058,12 @@
 	"Wall-RotMg": {
 		"armour": 15,
 		"breadth": 1,
-		"buildPoints": 400,
+		"buildPoints": 150,
 		"buildPower": 150,
 		"combinesWithWall": true,
 		"ecmID": "ZNULLECM",
 		"height": 2,
-		"hitpoints": 400,
+		"hitpoints": 420,
 		"id": "Wall-RotMg",
 		"name": "Assault Gun Hardpoint",
 		"resistance": 150,
@@ -2508,7 +3087,7 @@
 		"combinesWithWall": true,
 		"ecmID": "ZNULLECM",
 		"height": 2,
-		"hitpoints": 400,
+		"hitpoints": 420,
 		"id": "Wall-VulcanCan",
 		"name": "Assault Cannon Hardpoint",
 		"resistance": 150,
@@ -2532,7 +3111,7 @@
 		"combinesWithWall": true,
 		"ecmID": "ZNULLECM",
 		"height": 2,
-		"hitpoints": 400,
+		"hitpoints": 420,
 		"id": "WallTower-Atmiss",
 		"name": "Scourge Missile Hardpoint",
 		"resistance": 150,
@@ -2548,6 +3127,75 @@
 		],
 		"width": 1
 	},
+	"WallTower-DoubleAAGun": {
+		"armour": 15,
+		"breadth": 1,
+		"buildPoints": 400,
+		"buildPower": 400,
+		"combinesWithWall": true,
+		"height": 2,
+		"hitpoints": 420,
+		"id": "WallTower-DoubleAAGun",
+		"name": "AA Cyclone Flak Cannon Hardpoint",
+		"resistance": 150,
+		"sensorID": "DefaultSensor1Mk1",
+		"strength": "HARD",
+		"structureModel": [
+			"BLGUARD1.pie"
+		],
+		"thermal": 15,
+		"type": "DEFENSE",
+		"weapons": [
+			"AAGun2Mk1"
+		],
+		"width": 1
+	},
+	"WallTower-DoubleAAGun02": {
+		"armour": 18,
+		"breadth": 1,
+		"buildPoints": 550,
+		"buildPower": 325,
+		"combinesWithWall": true,
+		"height": 2,
+		"hitpoints": 1400,
+		"id": "WallTower-DoubleAAGun02",
+		"name": "AA Tornado Flak Cannon Hardpoint",
+		"resistance": 150,
+		"sensorID": "DefaultSensor1Mk1",
+		"strength": "HARD",
+		"structureModel": [
+			"BLGUARD1.pie"
+		],
+		"thermal": 18,
+		"type": "DEFENSE",
+		"weapons": [
+			"AAGun2Mk1Quad"
+		],
+		"width": 1
+	},
+	"WallTower-EMP": {
+		"armour": 15,
+		"breadth": 1,
+		"buildPoints": 400,
+		"buildPower": 350,
+		"combinesWithWall": true,
+		"height": 2,
+		"hitpoints": 420,
+		"id": "WallTower-EMP",
+		"name": "EMP Cannon Hardpoint",
+		"resistance": 150,
+		"sensorID": "DefaultSensor1Mk1",
+		"strength": "HARD",
+		"structureModel": [
+			"BLGUARD1.pie"
+		],
+		"thermal": 15,
+		"type": "DEFENSE",
+		"weapons": [
+			"EMP-Cannon"
+		],
+		"width": 1
+	},
 	"WallTower-HPVcannon": {
 		"armour": 15,
 		"breadth": 1,
@@ -2556,7 +3204,7 @@
 		"combinesWithWall": true,
 		"ecmID": "ZNULLECM",
 		"height": 2,
-		"hitpoints": 400,
+		"hitpoints": 420,
 		"id": "WallTower-HPVcannon",
 		"name": "Hyper Velocity Cannon Hardpoint",
 		"resistance": 150,
@@ -2580,7 +3228,7 @@
 		"combinesWithWall": true,
 		"ecmID": "ZNULLECM",
 		"height": 2,
-		"hitpoints": 400,
+		"hitpoints": 420,
 		"id": "WallTower-HvATrocket",
 		"name": "Tank Killer Hardpoint",
 		"resistance": 150,
@@ -2603,7 +3251,7 @@
 		"buildPower": 150,
 		"ecmID": "ZNULLECM",
 		"height": 1,
-		"hitpoints": 400,
+		"hitpoints": 420,
 		"id": "WallTower-Projector",
 		"name": "Inferno Hardpoint",
 		"resistance": 150,
@@ -2627,7 +3275,7 @@
 		"combinesWithWall": true,
 		"ecmID": "ZNULLECM",
 		"height": 2,
-		"hitpoints": 400,
+		"hitpoints": 420,
 		"id": "WallTower-PulseLas",
 		"name": "Flashlight Hardpoint",
 		"resistance": 150,
@@ -2643,6 +3291,29 @@
 		],
 		"width": 1
 	},
+	"WallTower-QuadRotAAGun": {
+		"armour": 15,
+		"breadth": 1,
+		"buildPoints": 400,
+		"buildPower": 400,
+		"combinesWithWall": true,
+		"height": 2,
+		"hitpoints": 420,
+		"id": "WallTower-QuadRotAAGun",
+		"name": "Whirlwind Hardpoint",
+		"resistance": 150,
+		"sensorID": "DefaultSensor1Mk1",
+		"strength": "HARD",
+		"structureModel": [
+			"BLGUARD1.pie"
+		],
+		"thermal": 15,
+		"type": "DEFENSE",
+		"weapons": [
+			"QuadRotAAGun"
+		],
+		"width": 1
+	},
 	"WallTower-Rail2": {
 		"armour": 15,
 		"breadth": 1,
@@ -2651,7 +3322,7 @@
 		"combinesWithWall": true,
 		"ecmID": "ZNULLECM",
 		"height": 2,
-		"hitpoints": 400,
+		"hitpoints": 420,
 		"id": "WallTower-Rail2",
 		"name": "Rail Gun Hardpoint",
 		"resistance": 150,
@@ -2675,7 +3346,7 @@
 		"combinesWithWall": true,
 		"ecmID": "ZNULLECM",
 		"height": 2,
-		"hitpoints": 400,
+		"hitpoints": 420,
 		"id": "WallTower-Rail3",
 		"name": "Gauss Cannon Hardpoint",
 		"resistance": 150,
@@ -2691,6 +3362,75 @@
 		],
 		"width": 1
 	},
+	"WallTower-SamHvy": {
+		"armour": 15,
+		"breadth": 1,
+		"buildPoints": 400,
+		"buildPower": 400,
+		"combinesWithWall": true,
+		"height": 2,
+		"hitpoints": 420,
+		"id": "WallTower-SamHvy",
+		"name": "Vindicator Hardpoint",
+		"resistance": 150,
+		"sensorID": "DefaultSensor1Mk1",
+		"strength": "HARD",
+		"structureModel": [
+			"BLGUARD1.pie"
+		],
+		"thermal": 15,
+		"type": "DEFENSE",
+		"weapons": [
+			"Missile-HvySAM"
+		],
+		"width": 1
+	},
+	"WallTower-SamSite": {
+		"armour": 15,
+		"breadth": 1,
+		"buildPoints": 400,
+		"buildPower": 400,
+		"combinesWithWall": true,
+		"height": 2,
+		"hitpoints": 420,
+		"id": "WallTower-SamSite",
+		"name": "Avenger Hardpoint",
+		"resistance": 150,
+		"sensorID": "DefaultSensor1Mk1",
+		"strength": "HARD",
+		"structureModel": [
+			"BLGUARD1.pie"
+		],
+		"thermal": 15,
+		"type": "DEFENSE",
+		"weapons": [
+			"Missile-LtSAM"
+		],
+		"width": 1
+	},
+	"WallTower-TwinAssaultGun": {
+		"armour": 15,
+		"breadth": 1,
+		"buildPoints": 400,
+		"buildPower": 250,
+		"combinesWithWall": true,
+		"height": 2,
+		"hitpoints": 420,
+		"id": "WallTower-TwinAssaultGun",
+		"name": "Twin Assault Gun Hardpoint",
+		"resistance": 150,
+		"sensorID": "DefaultSensor1Mk1",
+		"strength": "HARD",
+		"structureModel": [
+			"BLGUARD1.pie"
+		],
+		"thermal": 15,
+		"type": "DEFENSE",
+		"weapons": [
+			"MG5TWINROTARY"
+		],
+		"width": 1
+	},
 	"WallTower01": {
 		"armour": 15,
 		"breadth": 1,
@@ -2699,7 +3439,7 @@
 		"combinesWithWall": true,
 		"ecmID": "ZNULLECM",
 		"height": 2,
-		"hitpoints": 400,
+		"hitpoints": 420,
 		"id": "WallTower01",
 		"name": "Heavy Machinegun Hardpoint",
 		"resistance": 150,
@@ -2723,7 +3463,7 @@
 		"combinesWithWall": true,
 		"ecmID": "ZNULLECM",
 		"height": 2,
-		"hitpoints": 400,
+		"hitpoints": 420,
 		"id": "WallTower02",
 		"name": "Light Cannon Hardpoint",
 		"resistance": 150,
@@ -2747,7 +3487,7 @@
 		"combinesWithWall": true,
 		"ecmID": "ZNULLECM",
 		"height": 2,
-		"hitpoints": 400,
+		"hitpoints": 420,
 		"id": "WallTower03",
 		"name": "Medium Cannon Hardpoint",
 		"resistance": 150,
@@ -2771,7 +3511,7 @@
 		"combinesWithWall": true,
 		"ecmID": "ZNULLECM",
 		"height": 2,
-		"hitpoints": 400,
+		"hitpoints": 420,
 		"id": "WallTower04",
 		"name": "Heavy Cannon Hardpoint",
 		"resistance": 150,
@@ -2795,7 +3535,7 @@
 		"combinesWithWall": true,
 		"ecmID": "ZNULLECM",
 		"height": 2,
-		"hitpoints": 400,
+		"hitpoints": 420,
 		"id": "WallTower05",
 		"name": "Flamer Hardpoint",
 		"resistance": 150,
@@ -2819,7 +3559,7 @@
 		"combinesWithWall": true,
 		"ecmID": "ZNULLECM",
 		"height": 2,
-		"hitpoints": 400,
+		"hitpoints": 420,
 		"id": "WallTower06",
 		"name": "Lancer Hardpoint",
 		"resistance": 150,
@@ -2853,5 +3593,97 @@
 		"thermal": 12,
 		"type": "DEFENSE",
 		"width": 3
+	},
+	"X-Super-Cannon": {
+		"armour": 15,
+		"breadth": 2,
+		"buildPoints": 1600,
+		"buildPower": 1000,
+		"combinesWithWall": true,
+		"height": 2,
+		"hitpoints": 1200,
+		"id": "X-Super-Cannon",
+		"name": "Cannon Fortress",
+		"resistance": 100,
+		"sensorID": "FortressSensor",
+		"strength": "HARD",
+		"structureModel": [
+			"STWPFCAN.PIE"
+		],
+		"thermal": 15,
+		"type": "FORTRESS",
+		"weapons": [
+			"CannonSuper"
+		],
+		"width": 2
+	},
+	"X-Super-MassDriver": {
+		"armour": 15,
+		"breadth": 2,
+		"buildPoints": 1600,
+		"buildPower": 1800,
+		"combinesWithWall": true,
+		"height": 3,
+		"hitpoints": 1200,
+		"id": "X-Super-MassDriver",
+		"name": "Mass Driver Fortress",
+		"resistance": 100,
+		"sensorID": "FortressSensor",
+		"strength": "HARD",
+		"structureModel": [
+			"STWPFCAN.PIE"
+		],
+		"thermal": 15,
+		"type": "FORTRESS",
+		"weapons": [
+			"MassDriver"
+		],
+		"width": 2
+	},
+	"X-Super-Missile": {
+		"armour": 15,
+		"breadth": 2,
+		"buildPoints": 1600,
+		"buildPower": 1600,
+		"combinesWithWall": true,
+		"height": 3,
+		"hitpoints": 1200,
+		"id": "X-Super-Missile",
+		"name": "Missile Fortress",
+		"resistance": 100,
+		"sensorID": "FortressSensor",
+		"strength": "HARD",
+		"structureModel": [
+			"STWPFCAN.PIE"
+		],
+		"thermal": 15,
+		"type": "FORTRESS",
+		"weapons": [
+			"MissileSuper"
+		],
+		"width": 2
+	},
+	"X-Super-Rocket": {
+		"armour": 15,
+		"breadth": 2,
+		"buildPoints": 1600,
+		"buildPower": 1250,
+		"combinesWithWall": true,
+		"height": 3,
+		"hitpoints": 1200,
+		"id": "X-Super-Rocket",
+		"name": "Heavy Rocket Bastion",
+		"resistance": 100,
+		"sensorID": "FortressSensor",
+		"strength": "HARD",
+		"structureModel": [
+			"STWPFCAN.PIE"
+		],
+		"thermal": 15,
+		"type": "FORTRESS",
+		"weapons": [
+			"RocketSuper"
+		],
+		"width": 2
 	}
 }

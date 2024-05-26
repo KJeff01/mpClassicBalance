@@ -530,7 +530,7 @@
 		"buildPoints": 200,
 		"buildPower": 45,
 		"height": 2,
-		"hitpoints": 700,
+		"hitpoints": 265,
 		"id": "A0HardcreteMk1Gate",
 		"name": "Hardcrete Gate",
 		"strength": "HARD",
@@ -915,12 +915,12 @@
 		"width": 1
 	},
 	"AASite-QuadBof02": {
-		"armour": 12,
+		"armour": 10,
 		"breadth": 1,
 		"buildPoints": 350,
 		"buildPower": 275,
 		"height": 1,
-		"hitpoints": 600,
+		"hitpoints": 200,
 		"id": "AASite-QuadBof02",
 		"name": "AA Tornado Flak Cannon Emplacement",
 		"resistance": 150,
@@ -929,7 +929,7 @@
 		"structureModel": [
 			"Blaamnt2.PIE"
 		],
-		"thermal": 12,
+		"thermal": 10,
 		"type": "DEFENSE",
 		"weapons": [
 			"AAGun2Mk1Quad"
@@ -1476,12 +1476,12 @@
 		"width": 1
 	},
 	"Emplacement-MRLHvy-pit": {
-		"armour": 12,
+		"armour": 10,
 		"breadth": 1,
 		"buildPoints": 450,
 		"buildPower": 200,
 		"height": 1,
-		"hitpoints": 300,
+		"hitpoints": 200,
 		"id": "Emplacement-MRLHvy-pit",
 		"name": "Heavy Rocket Battery",
 		"resistance": 150,
@@ -1490,7 +1490,7 @@
 		"structureModel": [
 			"BLHARDPT.PIE"
 		],
-		"thermal": 12,
+		"thermal": 10,
 		"type": "DEFENSE",
 		"weapons": [
 			"Rocket-MRL-Hvy"
@@ -1655,12 +1655,12 @@
 		"width": 1
 	},
 	"Emplacement-HeavyPlasmaLauncher": {
-		"armour": 12,
+		"armour": 10,
 		"breadth": 1,
 		"buildPoints": 675,
 		"buildPower": 525,
 		"height": 1,
-		"hitpoints": 400,
+		"hitpoints": 200,
 		"id": "Emplacement-HeavyPlasmaLauncher",
 		"name": "Heavy Plasma Launcher Emplacement",
 		"resistance": 150,
@@ -1669,7 +1669,7 @@
 		"structureModel": [
 			"Blaamnt2.PIE"
 		],
-		"thermal": 12,
+		"thermal": 10,
 		"type": "DEFENSE",
 		"weapons": [
 			"PlasmaHeavy"
@@ -2460,12 +2460,12 @@
 		"width": 1
 	},
 	"P0-AASite-Sunburst": {
-		"armour": 12,
+		"armour": 10,
 		"breadth": 1,
 		"buildPoints": 300,
 		"buildPower": 175,
 		"height": 2,
-		"hitpoints": 400,
+		"hitpoints": 200,
 		"id": "P0-AASite-Sunburst",
 		"name": "Sunburst AA Site",
 		"resistance": 150,
@@ -2474,7 +2474,7 @@
 		"structureModel": [
 			"Blaamnt1.PIE"
 		],
-		"thermal": 12,
+		"thermal": 10,
 		"type": "DEFENSE",
 		"weapons": [
 			"Rocket-Sunburst"
@@ -2809,12 +2809,12 @@
 		"width": 1
 	},
 	"Sys-RadarDetector01": {
-		"armour": 17,
+		"armour": 15,
 		"breadth": 1,
 		"buildPoints": 400,
 		"buildPower": 175,
 		"height": 2,
-		"hitpoints": 1000,
+		"hitpoints": 400,
 		"id": "Sys-RadarDetector01",
 		"name": "Radar Detector Tower",
 		"resistance": 150,
@@ -2823,7 +2823,7 @@
 		"structureModel": [
 			"BLGUARDR.pie"
 		],
-		"thermal": 17,
+		"thermal": 15,
 		"type": "DEFENSE",
 		"width": 1
 	},
@@ -3151,13 +3151,13 @@
 		"width": 1
 	},
 	"WallTower-DoubleAAGun02": {
-		"armour": 18,
+		"armour": 15,
 		"breadth": 1,
-		"buildPoints": 550,
-		"buildPower": 325,
+		"buildPoints": 400,
+		"buildPower": 425,
 		"combinesWithWall": true,
 		"height": 2,
-		"hitpoints": 1400,
+		"hitpoints": 420,
 		"id": "WallTower-DoubleAAGun02",
 		"name": "AA Tornado Flak Cannon Hardpoint",
 		"resistance": 150,
@@ -3166,7 +3166,7 @@
 		"structureModel": [
 			"BLGUARD1.pie"
 		],
-		"thermal": 18,
+		"thermal": 15,
 		"type": "DEFENSE",
 		"weapons": [
 			"AAGun2Mk1Quad"

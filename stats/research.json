@@ -381,7 +381,7 @@
 		"resultComponents": [
 			"Cyb-Hvywpn-A-T"
 		],
-		"statID": "Missile-A-T"
+		"statID": "Cyb-Hvywpn-A-T"
 	},
 	"R-Cyborg-Hvywpn-Acannon": {
 		"iconID": "IMAGE_RES_CYBORGTECH",
@@ -400,7 +400,7 @@
 		"resultComponents": [
 			"Cyb-Hvywpn-Acannon"
 		],
-		"statID": "Cannon5VulcanMk1"
+		"statID": "Cyb-Hvywpn-Acannon"
 	},
 	"R-Cyborg-Hvywpn-HPV": {
 		"iconID": "IMAGE_RES_CYBORGTECH",
@@ -422,7 +422,7 @@
 		"resultComponents": [
 			"Cyb-Hvywpn-HPV"
 		],
-		"statID": "Cannon4AUTOMk1"
+		"statID": "Cyb-Hvywpn-HPV"
 	},
 	"R-Cyborg-Hvywpn-Mcannon": {
 		"iconID": "IMAGE_RES_CYBORGTECH",
@@ -442,7 +442,7 @@
 		"resultComponents": [
 			"Cyb-Hvywpn-Mcannon"
 		],
-		"statID": "Cannon2A-TMk1"
+		"statID": "Cyb-Hvywpn-Mcannon"
 	},
 	"R-Cyborg-Hvywpn-PulseLsr": {
 		"disabledWhen": 2,
@@ -461,7 +461,7 @@
 		"resultComponents": [
 			"Cyb-Hvywpn-PulseLsr"
 		],
-		"statID": "Laser2PULSEMk1"
+		"statID": "Cyb-Hvywpn-PulseLsr"
 	},
 	"R-Cyborg-Hvywpn-RailGunner": {
 		"iconID": "IMAGE_RES_CYBORGTECH",
@@ -479,7 +479,7 @@
 		"resultComponents": [
 			"Cyb-Hvywpn-RailGunner"
 		],
-		"statID": "RailGun2Mk1"
+		"statID": "Cyb-Hvywpn-RailGunner"
 	},
 	"R-Cyborg-Hvywpn-TK": {
 		"iconID": "IMAGE_RES_CYBORGTECH",
@@ -498,7 +498,7 @@
 		"resultComponents": [
 			"Cyb-Hvywpn-TK"
 		],
-		"statID": "Rocket-VTOL-HvyA-T"
+		"statID": "Cyb-Hvywpn-TK"
 	},
 	"R-Cyborg-Transport": {
 		"disabledWhen": 4,
@@ -1230,7 +1230,7 @@
 		"resultComponents": [
 			"CyborgCannon"
 		],
-		"statID": "Cannon1Mk1"
+		"statID": "CyborgCannon"
 	},
 	"R-Cyborg-Sys-ComEng": {
 		"iconID": "IMAGE_RES_CYBORGTECH",
@@ -1285,7 +1285,7 @@
 		"resultComponents": [
 			"CyborgFlamer01"
 		],
-		"statID": "Flame1Mk1"
+		"statID": "CyborgFlamer01"
 	},
 	"R-Cyborg-Wpn-Grenade": {
 		"iconID": "IMAGE_RES_CYBORGTECH",
@@ -1345,7 +1345,7 @@
 			"CyborgChaingun",
 			"CyborgLightBody"
 		],
-		"statID": "MG1Mk1"
+		"statID": "CyborgChaingun"
 	},
 	"R-Cyborg-Wpn-Rocket": {
 		"iconID": "IMAGE_RES_CYBORGTECH",
@@ -1364,7 +1364,7 @@
 		"resultComponents": [
 			"CyborgRocket"
 		],
-		"statID": "Rocket-LtA-T"
+		"statID": "CyborgRocket"
 	},
 	"R-Cyborg-Wpn-RotMG": {
 		"iconID": "IMAGE_RES_CYBORGTECH",
@@ -1382,7 +1382,7 @@
 		"resultComponents": [
 			"CyborgRotMG"
 		],
-		"statID": "MG4ROTARYMk1"
+		"statID": "CyborgRotMG"
 	},
 	"R-Cyborg-Wpn-ATMiss": {
 		"iconID": "IMAGE_RES_CYBORGTECH",
@@ -1400,7 +1400,7 @@
 		"resultComponents": [
 			"Cyb-Wpn-Atmiss"
 		],
-		"statID": "Missile-A-T"
+		"statID": "Cyb-Wpn-Atmiss"
 	},
 	"R-Cyborg-Wpn-Laser1": {
 		"iconID": "IMAGE_RES_CYBORGTECH",
@@ -1415,7 +1415,7 @@
 		"resultComponents": [
 			"Cyb-Wpn-Laser"
 		],
-		"statID": "Laser2PULSEMk1"
+		"statID": "Cyb-Wpn-Laser"
 	},
 	"R-Cyborg-Wpn-Rail1": {
 		"iconID": "IMAGE_RES_CYBORGTECH",
@@ -1430,7 +1430,7 @@
 		"resultComponents": [
 			"Cyb-Wpn-Rail1"
 		],
-		"statID": "RailGun1Mk1"
+		"statID": "Cyb-Wpn-Rail1"
 	},
 	"R-Defense-HardcreteGate": {
 		"iconID": "IMAGE_RES_DEFENCE",

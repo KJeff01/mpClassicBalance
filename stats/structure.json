@@ -366,7 +366,7 @@
 		"thermal": 10,
 		"type": "DEFENSE",
 		"weapons": [
-			"BabaCannon"
+			"BaBaCannon"
 		],
 		"width": 1
 	},

@@ -4217,7 +4217,7 @@
 	},
 	"R-Defense-Pillbox-RotMG": {
 		"id": "R-Defense-Pillbox-RotMG",
-		"name": "Assault Gun Bunker",
+		"name": "Rotary MG Bunker",
 		"redStructures": [
 			"PillBox1"
 		],

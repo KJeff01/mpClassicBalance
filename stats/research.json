@@ -31,7 +31,7 @@
 		"requiredResearch": [
 			"R-Struc-Research-Module",
 			"R-Struc-Factory-Module",
-			"R-Cyborg-Wpn-MG"
+			"R-Struc-Factory-Cyborg"
 		],
 		"requiredStructures": [
 			"A0CyborgFactory"
@@ -304,8 +304,7 @@
 		"msgName": "RES_CYW_H_AT",
 		"name": "Super Scourge Cyborg",
 		"requiredResearch": [
-			"R-Wpn-Missile2A-T",
-			"R-Cyborg-Wpn-ATMiss"
+			"R-Wpn-Missile2A-T"
 		],
 		"requiredStructures": [
 			"A0CyborgFactory"
@@ -364,7 +363,6 @@
 		"msgName": "RES_CYW_H_MC",
 		"name": "Super Heavy-Gunner",
 		"requiredResearch": [
-			"R-Cyborg-Wpn-Cannon",
 			"R-Cyborg-Metals04",
 			"R-Wpn-Cannon2Mk1"
 		],
@@ -1146,225 +1144,6 @@
 		],
 		"subgroupIconID": "IMAGE_RES_GRPUPG",
 		"techCode": 1
-	},
-	"R-Cyborg-Wpn-Cannon": {
-		"iconID": "IMAGE_RES_CYBORGTECH",
-		"id": "R-Cyborg-Wpn-Cannon",
-		"msgName": "RES_CYW_CN1",
-		"name": "Heavy Gunner Cyborg",
-		"requiredResearch": [
-			"R-Wpn-Cannon1Mk1",
-			"R-Cyborg-Wpn-MG"
-		],
-		"requiredStructures": [
-			"A0CyborgFactory"
-		],
-		"researchPoints": 1500,
-		"researchPower": 46,
-		"resultComponents": [
-			"CyborgCannon"
-		],
-		"statID": "Cannon1Mk1"
-	},
-	"R-Cyborg-Sys-ComEng": {
-		"iconID": "IMAGE_RES_CYBORGTECH",
-		"id": "R-Cyborg-Sys-ComEng",
-		"name": "Combat Engineer Cyborg",
-		"requiredResearch": [
-			"R-Sys-Engineering01",
-			"R-Cyborg-Wpn-MG"
-		],
-		"requiredStructures": [
-			"A0CyborgFactory"
-		],
-		"researchPoints": 600,
-		"researchPower": 18,
-		"resultComponents": [
-			"CyborgSpade"
-		],
-		"statID": "Spade1Mk1"
-	},
-	"R-Cyborg-Sys-Mechanic": {
-		"iconID": "IMAGE_RES_CYBORGTECH",
-		"id": "R-Cyborg-Sys-Mechanic",
-		"name": "Mechanic Cyborg",
-		"requiredResearch": [
-			"R-Cyborg-Wpn-MG",
-			"R-Sys-MobileRepairTurret01"
-		],
-		"requiredStructures": [
-			"A0CyborgFactory"
-		],
-		"researchPoints": 600,
-		"researchPower": 18,
-		"resultComponents": [
-			"CyborgRepair"
-		],
-		"statID": "LightRepair1"
-	},
-	"R-Cyborg-Wpn-Flamer": {
-		"iconID": "IMAGE_RES_CYBORGTECH",
-		"id": "R-Cyborg-Wpn-Flamer",
-		"msgName": "RES_CYW_FL1",
-		"name": "Flamer Cyborg",
-		"requiredResearch": [
-			"R-Wpn-Flamer01Mk1",
-			"R-Cyborg-Wpn-MG"
-		],
-		"requiredStructures": [
-			"A0CyborgFactory"
-		],
-		"researchPoints": 900,
-		"researchPower": 28,
-		"resultComponents": [
-			"CyborgFlamer01"
-		],
-		"statID": "Flame1Mk1"
-	},
-	"R-Cyborg-Wpn-Grenade": {
-		"iconID": "IMAGE_RES_CYBORGTECH",
-		"id": "R-Cyborg-Wpn-Grenade",
-		"name": "Grenadier Cyborg",
-		"requiredResearch": [
-			"R-Wpn-Mortar01Lt",
-			"R-Cyborg-Wpn-MG"
-		],
-		"requiredStructures": [
-			"A0CyborgFactory"
-		],
-		"researchPoints": 900,
-		"researchPower": 28,
-		"resultComponents": [
-			"Cyb-Wpn-Grenade"
-		],
-		"statID": "Mortar1Mk1"
-	},
-	"R-Cyborg-Wpn-Thermite": {
-		"iconID": "IMAGE_RES_CYBORGTECH",
-		"id": "R-Cyborg-Wpn-Thermite",
-		"msgName": "RES_CYW_FL1",
-		"name": "Thermite Cyborg",
-		"redComponents": [
-			"CyborgFlamer01"
-		],
-		"requiredResearch": [
-			"R-Wpn-Flame2",
-			"R-Cyborg-Wpn-MG"
-		],
-		"requiredStructures": [
-			"A0CyborgFactory"
-		],
-		"researchPoints": 900,
-		"researchPower": 28,
-		"resultComponents": [
-			"Cyb-Wpn-Thermite"
-		],
-		"statID": "Flame2"
-	},
-	"R-Cyborg-Wpn-MG": {
-		"iconID": "IMAGE_RES_CYBORGTECH",
-		"id": "R-Cyborg-Wpn-MG",
-		"msgName": "RES_CYW_MG1",
-		"name": "Machinegunner Cyborg",
-		"requiredResearch": [
-			"R-Struc-Factory-Cyborg"
-		],
-		"requiredStructures": [
-			"A0CyborgFactory"
-		],
-		"researchPoints": 600,
-		"researchPower": 18,
-		"resultComponents": [
-			"CyborgLegs",
-			"CyborgChaingun",
-			"CyborgLightBody"
-		],
-		"statID": "MG1Mk1"
-	},
-	"R-Cyborg-Wpn-Rocket": {
-		"iconID": "IMAGE_RES_CYBORGTECH",
-		"id": "R-Cyborg-Wpn-Rocket",
-		"msgName": "RES_CYW_RK1",
-		"name": "Lancer Cyborg",
-		"requiredResearch": [
-			"R-Wpn-Rocket01-LtAT",
-			"R-Cyborg-Wpn-MG"
-		],
-		"requiredStructures": [
-			"A0CyborgFactory"
-		],
-		"researchPoints": 900,
-		"researchPower": 28,
-		"resultComponents": [
-			"CyborgRocket"
-		],
-		"statID": "Rocket-LtA-T"
-	},
-	"R-Cyborg-Wpn-RotMG": {
-		"iconID": "IMAGE_RES_CYBORGTECH",
-		"id": "R-Cyborg-Wpn-RotMG",
-		"msgName": "RES_CYW_MG4",
-		"name": "Assault Gunner Cyborg",
-		"redComponents": [
-			"CyborgChaingun"
-		],
-		"requiredResearch": [
-			"R-Wpn-MG4"
-		],
-		"researchPoints": 7200,
-		"researchPower": 225,
-		"resultComponents": [
-			"CyborgRotMG"
-		],
-		"statID": "MG4ROTARYMk1"
-	},
-	"R-Cyborg-Wpn-ATMiss": {
-		"iconID": "IMAGE_RES_CYBORGTECH",
-		"id": "R-Cyborg-Wpn-ATMiss",
-		"msgName": "RES_CYW_ATM",
-		"name": "Scourge Cyborg",
-		"redComponents": [
-			"CyborgRocket"
-		],
-		"requiredResearch": [
-			"R-Wpn-Missile2A-T"
-		],
-		"researchPoints": 14400,
-		"researchPower": 450,
-		"resultComponents": [
-			"Cyb-Wpn-Atmiss"
-		],
-		"statID": "Missile-A-T"
-	},
-	"R-Cyborg-Wpn-Laser1": {
-		"iconID": "IMAGE_RES_CYBORGTECH",
-		"id": "R-Cyborg-Wpn-Laser1",
-		"msgName": "RES_CYW_LS1",
-		"name": "Flashlight Gunner Cyborg",
-		"requiredResearch": [
-			"R-Wpn-Laser01"
-		],
-		"researchPoints": 14400,
-		"researchPower": 450,
-		"resultComponents": [
-			"Cyb-Wpn-Laser"
-		],
-		"statID": "Laser3BEAMMk1"
-	},
-	"R-Cyborg-Wpn-Rail1": {
-		"iconID": "IMAGE_RES_CYBORGTECH",
-		"id": "R-Cyborg-Wpn-Rail1",
-		"msgName": "RES_CYW_RL1",
-		"name": "Needle Gunner Cyborg",
-		"requiredResearch": [
-			"R-Wpn-RailGun01"
-		],
-		"researchPoints": 14400,
-		"researchPower": 450,
-		"resultComponents": [
-			"Cyb-Wpn-Rail1"
-		],
-		"statID": "RailGun1Mk1"
 	},
 	"R-Defense-HardcreteGate": {
 		"iconID": "IMAGE_RES_DEFENCE",
@@ -2210,7 +1989,8 @@
 		"researchPoints": 600,
 		"researchPower": 18,
 		"resultComponents": [
-			"LightRepair1"
+			"LightRepair1",
+			"CyborgRepair"
 		],
 		"statID": "LightRepair1"
 	},
@@ -2424,7 +2204,8 @@
 		"name": "Construction Unit",
 		"researchPoints": 10,
 		"resultComponents": [
-			"Spade1Mk1"
+			"Spade1Mk1",
+			"CyborgSpade"
 		],
 		"statID": "Spade1Mk1",
 		"techCode": 1
@@ -2826,7 +2607,8 @@
 		"researchPower": 75,
 		"resultComponents": [
 			"Cannon1-VTOL",
-			"Cannon1Mk1"
+			"Cannon1Mk1",
+			"CyborgCannon"
 		],
 		"statID": "Cannon1Mk1"
 	},
@@ -2992,7 +2774,8 @@
 		"researchPoints": 600,
 		"researchPower": 18,
 		"resultComponents": [
-			"Flame1Mk1"
+			"Flame1Mk1",
+			"CyborgFlamer01"
 		],
 		"statID": "Flame1Mk1"
 	},
@@ -3132,7 +2915,8 @@
 		"researchPower": 1,
 		"resultComponents": [
 			"MG1-VTOL",
-			"MG1Mk1"
+			"MG1Mk1",
+			"CyborgChaingun"
 		],
 		"statID": "MG1Mk1"
 	},
@@ -3365,7 +3149,8 @@
 		"researchPoints": 2400,
 		"researchPower": 75,
 		"resultComponents": [
-			"Mortar1Mk1"
+			"Mortar1Mk1",
+			"Cyb-Wpn-Grenade"
 		],
 		"statID": "Mortar1Mk1"
 	},
@@ -3634,7 +3419,8 @@
 		"researchPower": 112,
 		"resultComponents": [
 			"Rocket-LtA-T",
-			"Rocket-VTOL-LtA-T"
+			"Rocket-VTOL-LtA-T",
+			"CyborgRocket"
 		],
 		"statID": "Rocket-LtA-T"
 	},
@@ -5848,7 +5634,8 @@
 		"msgName": "RES_FLAME2",
 		"name": "Heavy Flamer - Inferno",
 		"redComponents": [
-			"Flame1Mk1"
+			"Flame1Mk1",
+			"CyborgFlamer01"
 		],
 		"requiredResearch": [
 			"R-Vehicle-Body05",
@@ -5858,7 +5645,8 @@
 		"researchPoints": 7200,
 		"researchPower": 225,
 		"resultComponents": [
-			"Flame2"
+			"Flame2",
+			"Cyb-Wpn-Thermite"
 		],
 		"statID": "Flame2"
 	},
@@ -6563,7 +6351,8 @@
 			"MG2-VTOL",
 			"MG2Mk1",
 			"MG3-VTOL",
-			"MG3Mk1"
+			"MG3Mk1",
+			"CyborgChaingun"
 		],
 		"requiredResearch": [
 			"R-Wpn-MG3Mk1",
@@ -6573,7 +6362,8 @@
 		"researchPower": 225,
 		"resultComponents": [
 			"MG4ROTARY-VTOL",
-			"MG4ROTARYMk1"
+			"MG4ROTARYMk1",
+			"CyborgRotMG"
 		],
 		"statID": "MG4ROTARYMk1"
 	},
@@ -9195,7 +8985,8 @@
 		"researchPower": 450,
 		"resultComponents": [
 			"Laser3BEAM-VTOL",
-			"Laser3BEAMMk1"
+			"Laser3BEAMMk1",
+			"Cyb-Wpn-Laser"
 		],
 		"statID": "Laser3BEAMMk1"
 	},
@@ -9563,7 +9354,8 @@
 		"name": "Scourge Missile",
 		"redComponents": [
 			"Rocket-LtA-T",
-			"Rocket-VTOL-LtA-T"
+			"Rocket-VTOL-LtA-T",
+			"CyborgRocket"
 		],
 		"requiredResearch": [
 			"R-Wpn-Rocket07-Tank-Killer",
@@ -9573,7 +9365,8 @@
 		"researchPower": 450,
 		"resultComponents": [
 			"Missile-A-T",
-			"Missile-VTOL-AT"
+			"Missile-VTOL-AT",
+			"Cyb-Wpn-Atmiss"
 		],
 		"statID": "Missile-A-T"
 	},
@@ -9854,7 +9647,8 @@
 		"researchPower": 450,
 		"resultComponents": [
 			"RailGun1-VTOL",
-			"RailGun1Mk1"
+			"RailGun1Mk1",
+			"Cyb-Wpn-Rail1"
 		],
 		"statID": "RailGun1Mk1"
 	},

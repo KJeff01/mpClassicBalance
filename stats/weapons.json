@@ -4718,6 +4718,7 @@
 		"buildPoints": 1600,
 		"buildPower": 400,
 		"damage": 2,
+		"designable": 1,
 		"effectSize": 100,
 		"faceInFlight": 1,
 		"facePlayer": 1,
